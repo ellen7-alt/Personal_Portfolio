@@ -6,7 +6,7 @@ body {
 }
 
 #navbar {
-  background-color: #be3144;
+  background-color: black;
   position: fixed;
   top: 0;
   left: 0;
@@ -44,8 +44,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   background-color: black;
-  background: linear-gradient(60deg, #3a3d40 0%, rgb(3, 2, 2) 100%);
-}
+ background: linear-gradient(60deg, #c66bd2 0%, #322347 100%);
 
 h1 {
   color: white;
