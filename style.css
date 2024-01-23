@@ -1,0 +1,136 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
+  margin: 0;
+  overflow-x:hidden;
+}
+
+#navbar {
+  background-color: #be3144;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#nav-list {
+  display: flex;
+  flex-direction: row;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+  padding: 2rem;
+}
+
+a:hover {
+  background-color: grey;
+  padding: 1rem;
+}
+
+#welcome-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  background: linear-gradient(60deg, #3a3d40 0%, rgb(3, 2, 2) 100%);
+}
+
+h1 {
+  color: white;
+  font-size: 5em;
+  letter-spacing: 0.7rem;
+  font-weight: bold;
+}
+
+#welcome-section > p {
+  font-size: 1.5em;
+  color: #d27580;
+  margin-top: 0;
+  letter-spacing: 0.3rem; /* Corrected spelling */
+  font-style: italic;
+ font-style: italic;
+}
+
+.projects {
+  text-align: center;
+  background-color: #45567d;
+  margin: 0;
+  padding: 8em 2em;
+}
+h2 {
+  font-size: 3.2em;
+  text-decoration: underline;
+  color: white;
+  
+}
+
+.project-img {
+  height: calc(100%-4.8rem);
+  width: 100%;
+  object-fit: cover; /* or 'cover' depending on your preference */
+}
+
+.project-tile {
+  color:white;
+  width: 100%;
+  background-color: #45567d;
+  margin:0;
+  padding:2rem 0;
+
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
+  place-items: center;
+  width:100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom:6rem;
+}
+
+#projects > p{
+    color:aliceblue;
+    font-size:2px;
+    font-family: 'Poppins', sans-serif
+}
+.project-tile1 {
+  background-size: 1.5rem;
+}
+#contact{
+  background-color: #303841;
+  width:100%;
+  height:80vh;
+  margin:0;
+  padding:0 1rem;
+  display:flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-p{
+  color: white;
+  font-style: italic;
+  text-align: center;
+  font-size: 1rem;
+  margin-top: -37px;
+  margin-bottom: 57px;
+}
+ h3{
+  text-decoration: none;
+  font-size:2.8rem;
+  color:white;
+}
